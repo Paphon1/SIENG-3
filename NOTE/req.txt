@@ -1,0 +1,7 @@
+VScode Terminal
+(Must have Python in path)
+python -m venv venv
+.\venv\Scripts\activate
+
+pip install --upgrade pip
+pip install jpeglib numpy cryptography pillow
