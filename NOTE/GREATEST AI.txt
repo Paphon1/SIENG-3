@@ -1,0 +1,23 @@
+GREATEST AI 
+
+Encode
+
+เทคนิคหลบตาบีบอัดด้วย "Matrix Embedding" -- > ซ่อนด้วยการ "สลับตำแหน่งพิกเซล" (Pixel Permutation)
+[ ข้อความลับ ]
+      │
+      ▼
+[ 1. Pixel/Block Permutation ] ──► นำข้อความหรือสุ่มเลือกพิกเซล/บล็อก DCT 
+      │                             กระจายตำแหน่งด้วย Secret Key (Seed)
+      ▼
+[ 2. Matrix Embedding (F5) ]   ──► นำข้อมูลที่สับเปลี่ยนตำแหน่งแล้ว ไปฝังลงใน 
+      │                             บิตความถี่ JPEG โดยใช้อัลกอริทึมแก้บิตให้น้อยที่สุด
+      ▼
+[ ไฟล์ JPEG ลับที่สมบูรณ์ ]
+
+
+LSB++ นี้คือต้องใช้ LSB หรือแก้ปัญหา LSB
+
+
+TODO F5 + J-uniward?
+
+	spread spectun + J-uniward
