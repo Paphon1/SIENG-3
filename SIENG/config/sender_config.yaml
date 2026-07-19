@@ -4,8 +4,8 @@ stego_settings:
   pbkdf2_iterations: 200000
 
 input_output:
-  cover_image_path: "data/cover.jpg"
-  stego_image_path: "data/stego_output.jpg"
+  cover_image_path: "asset/picture/jpg/cover.jpg"
+  stego_image_path: "asset/picture/jpg/stego_output.jpg"
 
 secret:
   password: "SuperSecretPassword123"
