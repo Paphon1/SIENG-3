@@ -1,0 +1,10 @@
+# Receiver Configuration
+stego_settings:
+  hamming_k: 3
+
+input_output:
+  stego_image_path: "asset/picture/jpg/stegoSea.jpg"
+  output_text_path: "asset/picture/jpg/stegoSea_decrypted_message.txt"
+
+secret:
+  password: "SuperSecretPassword123"
