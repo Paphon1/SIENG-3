@@ -1,0 +1,3 @@
+python sieng_f5.py analyze cover.jpg **ตรวจสอบภาพ
+python sieng_f5.py embed cover.jpg stego.jpg -p "mypassword123" -m "ทดสอบ F5" **ฝังข้อมูล
+python sieng_f5.py extract stego.jpg -p "mypassword123" ** decode
