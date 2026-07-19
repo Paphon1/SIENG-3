@@ -1,0 +1,15 @@
+# Sender Configuration
+stego_settings:
+  hamming_k: 3
+  pbkdf2_iterations: 200000
+
+input_output:
+  cover_image_path: "data/cover.jpg"
+  stego_image_path: "data/stego_output.jpg"
+
+secret:
+  password: "SuperSecretPassword123"
+  # สามารถใส่ข้อความตรงๆ หรือชี้ไปที่ไฟล์ข้อความขนาดใหญ่ได้
+  message_source: "text" # ตัวเลือก: "text" หรือ "file"
+  message_text: "This is a highly confidential message hidden inside a JPEG."
+  message_file_path: ""
